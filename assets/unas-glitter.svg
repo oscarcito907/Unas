@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF8F6"/><stop offset="1" stop-color="#EAD8DE"/></linearGradient>
+    <linearGradient id="gl" x1="70" y1="0" x2="70" y2="270" gradientUnits="userSpaceOnUse"><stop stop-color="#FBE7EC"/><stop offset="0.6" stop-color="#E7A8BC"/><stop offset="1" stop-color="#B96E88"/></linearGradient>
+    <filter id="s" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#9B5870" flood-opacity="0.18"/></filter>
+    <path id="n" d="M50 18 C24 18 8 34 8 66 L8 210 C8 246 30 270 70 270 C110 270 132 246 132 210 L132 66 C132 34 116 18 90 18 C76 10 64 10 50 18 Z"/>
+    <g id="spark"><path d="M0 -14 L3 -3 14 0 3 3 0 14 -3 3 -14 0 -3 -3 Z" fill="#FFF3D6"/></g>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="120" cy="170" r="210" fill="#F8E7EA"/><circle cx="690" cy="850" r="240" fill="#F6DFE5"/>
+  <g filter="url(#s)" transform="translate(140 170) rotate(7 280 350)">
+    <path d="M-40 250 C20 200 90 235 135 295 C180 360 215 435 305 485 L350 700 C250 740 110 720 5 645 C-80 575 -90 360 -40 250 Z" fill="#F0D5CB"/>
+    <g transform="translate(20 70) scale(1.3)"><use href="#n" fill="url(#gl)"/><use href="#spark" x="40" y="170"/><use href="#spark" x="95" y="100" transform="scale(0.6)"/><circle cx="25" cy="120" r="3" fill="#FFF3D6"/><circle cx="100" cy="210" r="3" fill="#FFF3D6"/></g>
+    <g transform="translate(175 180) scale(1.2)"><use href="#n" fill="url(#gl)"/><use href="#spark" x="40" y="170"/><use href="#spark" x="95" y="100" transform="scale(0.6)"/><circle cx="25" cy="120" r="3" fill="#FFF3D6"/></g>
+    <g transform="translate(325 290) scale(1.1)"><use href="#n" fill="url(#gl)"/><use href="#spark" x="40" y="170"/><circle cx="25" cy="120" r="3" fill="#FFF3D6"/><circle cx="100" cy="210" r="3" fill="#FFF3D6"/></g>
+  </g>
+  <g fill="#C1869B" opacity="0.7"><path d="M700 290 l8 20 20 8 -20 8 -8 20 -8 -20 -20 -8 20 -8 Z"/><path d="M650 430 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z"/></g>
+  <rect x="40" y="40" width="720" height="920" rx="28" stroke="#D6A6B2" stroke-opacity="0.45" stroke-width="2"/>
+</svg>

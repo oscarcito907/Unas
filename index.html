@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pétalo Nail Studio. Manicura, pedicura y diseño de uñas en un espacio pensado para ti. Reserva tu cita online." />
+  <meta name="theme-color" content="#f7e3e7" />
+  <title>Pétalo · Nail Studio — Uñas que hablan por ti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir al contenido</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Pétalo Nail Studio, ir al inicio">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="9" r="7" /><circle cx="31" cy="20" r="7" />
+          <circle cx="20" cy="31" r="7" /><circle cx="9" cy="20" r="7" />
+          <circle cx="20" cy="20" r="5" class="brand-core" />
+        </svg>
+        <span class="brand-text"><strong>Pétalo</strong><small>NAIL STUDIO</small></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#resenas">Reseñas</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn btn-primary btn-nav" href="#reserva">Reservar cita</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Manicura · Pedicura · Diseño</p>
+          <h1>Uñas que <em>hablan</em> por ti</h1>
+          <p class="hero-lead">Diseños que se sienten tan bien como se ven. Un momento para ti, cuidado al detalle y hecho con amor en cada capa.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#reserva">Reservar mi cita <span aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="#galeria">Ver diseños</a>
+          </div>
+          <div class="hero-proof">
+            <div class="stars" aria-label="Valoración 4,9 sobre 5">★★★★★ <span>4.9</span></div>
+            <span class="proof-divider"></span>
+            <p>+2.500 clientas felices</p>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-frame">
+            <img src="assets/hero.svg" alt="Ilustración de unas manicuradas en tonos rosa nude" />
+          </div>
+          <div class="floating-card floating-card--top">
+            <span class="floating-icon">✦</span>
+            <div><strong>Diseño propio</strong><small>Cada uña, única</small></div>
+          </div>
+          <div class="floating-card floating-card--bottom">
+            <div class="avatar-stack" aria-hidden="true"><span>M</span><span>L</span><span>A</span></div>
+            <div><strong>4.9 / 5</strong><small>en reseñas reales</small></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 45 C240 90 480 0 720 45 C960 90 1200 0 1440 45 L1440 90 L0 90 Z" /></svg>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Manicura <i>✦</i> Pedicura <i>✦</i> Gel semipermanente <i>✦</i> Diseño a mano <i>✦</i> French <i>✦</i> Spa de manos <i>✦</i>&nbsp;</span>
+        <span>Manicura <i>✦</i> Pedicura <i>✦</i> Gel semipermanente <i>✦</i> Diseño a mano <i>✦</i> French <i>✦</i> Spa de manos <i>✦</i>&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ============ SERVICIOS / EJEMPLOS ============ -->
+    <section class="section services" id="servicios">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Lo que hacemos</p>
+          <h2>Encuentra tu <em>estilo</em></h2>
+          <p class="section-lead">Del clásico más puro al diseño más atrevido. Elige el look que te representa y nosotras lo hacemos realidad.</p>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="Filtrar diseños">
+          <button class="filter-chip is-active" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="filter-chip" data-filter="french" aria-pressed="false">French</button>
+          <button class="filter-chip" data-filter="ombre" aria-pressed="false">Ombré</button>
+          <button class="filter-chip" data-filter="floral" aria-pressed="false">Floral</button>
+          <button class="filter-chip" data-filter="glitter" aria-pressed="false">Glitter</button>
+          <button class="filter-chip" data-filter="minimalista" aria-pressed="false">Minimalista</button>
+          <button class="filter-chip" data-filter="clasico" aria-pressed="false">Clásico</button>
+        </div>
+
+        <div class="services-grid" id="servicesGrid">
+          <article class="service-card reveal" data-category="french">
+            <div class="service-img"><img src="assets/unas-french.svg" alt="Diseño de uñas french con base rosa y puntas blancas" loading="lazy" /><span class="service-tag">French</span></div>
+            <div class="service-body">
+              <div class="service-title-row"><h3>French moderno</h3><span class="price">38 €</span></div>
+              <p>El clásico de siempre, con una línea limpia y una base en gel que dura semanas.</p>
+              <div class="service-meta"><span>⏱ 1 h 15 min</span><button class="link-btn book-service" data-service="French moderno">Reservar →</button></div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-category="ombre">
+            <div class="service-img"><img src="assets/unas-ombre.svg" alt="Diseño de uñas ombré en degradado rosa" loading="lazy" /><span class="service-tag">Ombré</span></div>
+            <div class="service-body">
+              <div class="service-title-row"><h3>Ombré suave</h3><span class="price">42 €</span></div>
+              <p>Degradado en tonos nude y rosa, un acabado sedoso y naturalmente elegante.</p>
+              <div class="service-meta"><span>⏱ 1 h 30 min</span><button class="link-btn book-service" data-service="Ombré suave">Reservar →</button></div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-category="floral">
+            <div class="service-img"><img src="assets/unas-floral.svg" alt="Diseño de uñas con flores pintadas a mano" loading="lazy" /><span class="service-tag">Floral</span></div>
+            <div class="service-body">
+              <div class="service-title-row"><h3>Flores a mano</h3><span class="price">48 €</span></div>
+              <p>Pequeñas flores pintadas una a una sobre una base nude. Primavera en tus manos.</p>
+              <div class="service-meta"><span>⏱ 1 h 45 min</span><button class="link-btn book-service" data-service="Flores a mano">Reservar →</button></div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-category="glitter">
+            <div class="service-img"><img src="assets/unas-glitter.svg" alt="Diseño de uñas con purpurina rosa y detalles dorados" loading="lazy" /><span class="service-tag">Glitter</span></div>
+            <div class="service-body">
+              <div class="service-title-row"><h3>Brillo dorado</h3><span class="price">45 €</span></div>
+              <p>Purpurina fina y destellos dorados para las ocasiones que merecen brillar.</p>
+              <div class="service-meta"><span>⏱ 1 h 30 min</span><button class="link-btn book-service" data-service="Brillo dorado">Reservar →</button></div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-category="minimalista">
+            <div class="service-img"><img src="assets/unas-minimalista.svg" alt="Diseño de uñas minimalista leche con líneas doradas" loading="lazy" /><span class="service-tag">Minimalista</span></div>
+            <div class="service-body">
+              <div class="service-title-row"><h3>Línea dorada</h3><span class="price">40 €</span></div>
+              <p>Efecto leche, líneas finas y mucho estilo. Menos es más, siempre.</p>
+              <div class="service-meta"><span>⏱ 1 h 15 min</span><button class="link-btn book-service" data-service="Línea dorada">Reservar →</button></div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-category="clasico">
+            <div class="service-img"><img src="assets/unas-clasico.svg" alt="Diseño de uñas clásicas en rojo" loading="lazy" /><span class="service-tag">Clásico</span></div>
+            <div class="service-body">
+              <div class="service-title-row"><h3>Rojo eterno</h3><span class="price">38 €</span></div>
+              <p>Un rojo profundo y glossy que nunca pasa de moda. El favorito de siempre.</p>
+              <div class="service-meta"><span>⏱ 1 h 15 min</span><button class="link-btn book-service" data-service="Rojo eterno">Reservar →</button></div>
+            </div>
+          </article>
+        </div>
+        <p class="no-results" id="noResults" hidden>No hay diseños en esta categoría.</p>
+      </div>
+    </section>
+
+    <!-- ============ GALERÍA ============ -->
+    <section class="section gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Nuestro trabajo</p>
+          <h2>Inspiración <em>real</em></h2>
+          <p class="section-lead">Cada par de manos cuenta una historia. Estas son algunas de las nuestras.</p>
+        </div>
+
+        <div class="gallery-grid reveal" id="galleryGrid">
+          <button class="gallery-item gallery-item--tall" data-src="assets/unas-french.svg" data-caption="French moderno" aria-label="Ampliar foto: French moderno"><img src="assets/unas-french.svg" alt="Uñas con diseño french" loading="lazy" /><span class="gallery-overlay">French moderno</span></button>
+          <button class="gallery-item" data-src="assets/unas-ombre.svg" data-caption="Ombré suave" aria-label="Ampliar foto: Ombré suave"><img src="assets/unas-ombre.svg" alt="Uñas con degradado ombré" loading="lazy" /><span class="gallery-overlay">Ombré suave</span></button>
+          <button class="gallery-item" data-src="assets/unas-floral.svg" data-caption="Flores a mano" aria-label="Ampliar foto: Flores a mano"><img src="assets/unas-floral.svg" alt="Uñas con flores pintadas" loading="lazy" /><span class="gallery-overlay">Flores a mano</span></button>
+          <button class="gallery-item gallery-item--wide" data-src="assets/salon.svg" data-caption="Nuestro estudio" aria-label="Ampliar foto: Nuestro estudio"><img src="assets/salon.svg" alt="Interior del estudio de uñas" loading="lazy" /><span class="gallery-overlay">Nuestro estudio</span></button>
+          <button class="gallery-item" data-src="assets/unas-glitter.svg" data-caption="Brillo dorado" aria-label="Ampliar foto: Brillo dorado"><img src="assets/unas-glitter.svg" alt="Uñas con purpurina dorada" loading="lazy" /><span class="gallery-overlay">Brillo dorado</span></button>
+          <button class="gallery-item gallery-item--tall" data-src="assets/unas-minimalista.svg" data-caption="Línea dorada" aria-label="Ampliar foto: Línea dorada"><img src="assets/unas-minimalista.svg" alt="Uñas minimalistas con línea dorada" loading="lazy" /><span class="gallery-overlay">Línea dorada</span></button>
+          <button class="gallery-item" data-src="assets/unas-clasico.svg" data-caption="Rojo eterno" aria-label="Ampliar foto: Rojo eterno"><img src="assets/unas-clasico.svg" alt="Uñas rojas clásicas" loading="lazy" /><span class="gallery-overlay">Rojo eterno</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESEÑAS ============ -->
+    <section class="section reviews-section" id="resenas">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Lo que dicen</p>
+          <h2>Clientas <em>encantadas</em></h2>
+          <p class="section-lead">La mejor publicidad es una clienta que vuelve. Y estas vuelven siempre.</p>
+        </div>
+
+        <div class="reviews-summary reveal">
+          <strong>4.9</strong>
+          <div><div class="stars" aria-label="4,9 sobre 5">★★★★★</div><small>Basado en 186 reseñas</small></div>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Salí de la sesión con unas manos que ni reconocía. El trato es increíble y el diseño quedó exactamente como lo imaginé.”</p>
+            <div class="review-author"><span class="avatar">MC</span><div><strong>María C.</strong><small>Clienta desde 2022</small></div></div>
+          </article>
+          <article class="review-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“El ombré me duró cuatro semanas perfecto. Además, el espacio es precioso y la atención de 10. Ya no voy a ningún otro sitio.”</p>
+            <div class="review-author"><span class="avatar avatar--2">LP</span><div><strong>Laura P.</strong><small>Clienta desde 2023</small></div></div>
+          </article>
+          <article class="review-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Reservé por la web en dos minutos y me recordaron la cita al día siguiente. Detalles como ese marcan la diferencia.”</p>
+            <div class="review-author"><span class="avatar avatar--3">AG</span><div><strong>Ana G.</strong><small>Clienta desde 2024</small></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESERVA ============ -->
+    <section class="section booking-section" id="reserva">
+      <div class="container booking-inner">
+        <div class="booking-intro reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Tu turno</p>
+          <h2>Reserva tu <em>cita</em></h2>
+          <p class="section-lead">Elige el servicio y el momento que mejor te venga. Te confirmamos la reserva al instante.</p>
+          <ul class="booking-perks">
+            <li><span>✓</span> Sin llamadas, en 1 minuto</li>
+            <li><span>✓</span> Cambia o cancela sin problema</li>
+            <li><span>✓</span> Atención personalizada</li>
+          </ul>
+          <div class="booking-note"><span>✦</span> Las citas se confirman de lunes a sábado, de 9:00 a 19:00.</div>
+        </div>
+
+        <form class="booking-form reveal" id="bookingForm" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="nombre">Nombre y apellidos <span>*</span></label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ej. Marta García" autocomplete="name" required />
+              <small class="error-msg" data-error-for="nombre"></small>
+            </div>
+            <div class="field">
+              <label for="telefono">Teléfono <span>*</span></label>
+              <input type="tel" id="telefono" name="telefono" placeholder="600 000 000" autocomplete="tel" required />
+              <small class="error-msg" data-error-for="telefono"></small>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email">Correo electrónico <span>*</span></label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" autocomplete="email" required />
+            <small class="error-msg" data-error-for="email"></small>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="servicio">Servicio <span>*</span></label>
+              <select id="servicio" name="servicio" required>
+                <option value="">Selecciona un servicio</option>
+                <option value="Manicura clásica">Manicura clásica — 28 €</option>
+                <option value="French moderno">French moderno — 38 €</option>
+                <option value="Ombré suave">Ombré suave — 42 €</option>
+                <option value="Flores a mano">Flores a mano — 48 €</option>
+                <option value="Brillo dorado">Brillo dorado — 45 €</option>
+                <option value="Línea dorada">Línea dorada — 40 €</option>
+                <option value="Rojo eterno">Rojo eterno — 38 €</option>
+                <option value="Pedicura spa">Pedicura spa — 45 €</option>
+              </select>
+              <small class="error-msg" data-error-for="servicio"></small>
+            </div>
+            <div class="field">
+              <label for="fecha">Fecha <span>*</span></label>
+              <input type="date" id="fecha" name="fecha" required />
+              <small class="error-msg" data-error-for="fecha"></small>
+            </div>
+          </div>
+
+          <fieldset class="field hora-field">
+            <legend>Hora <span>*</span></legend>
+            <div class="time-slots" id="timeSlots">
+              <label><input type="radio" name="hora" value="09:00" /><span>09:00</span></label>
+              <label><input type="radio" name="hora" value="10:30" /><span>10:30</span></label>
+              <label><input type="radio" name="hora" value="12:00" /><span>12:00</span></label>
+              <label><input type="radio" name="hora" value="13:30" /><span>13:30</span></label>
+              <label><input type="radio" name="hora" value="16:00" /><span>16:00</span></label>
+              <label><input type="radio" name="hora" value="17:30" /><span>17:30</span></label>
+            </div>
+            <small class="error-msg" data-error-for="hora"></small>
+          </fieldset>
+
+          <div class="field">
+            <label for="notas">¿Alguna idea o petición especial? <span class="optional">(opcional)</span></label>
+            <textarea id="notas" name="notas" rows="3" placeholder="Cuéntanos el diseño que tienes en mente..."></textarea>
+          </div>
+
+          <div class="form-summary" id="formSummary" aria-live="polite">
+            <span>Tu reserva</span>
+            <strong id="summaryText">Completa los datos para ver el resumen</strong>
+          </div>
+
+          <button class="btn btn-primary btn-submit" type="submit">Confirmar reserva <span aria-hidden="true">→</span></button>
+          <p class="form-disclaimer">Al reservar aceptas nuestra política de cancelación. Te avisaremos por email.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section contact-section" id="contacto">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-info">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Nos encontrarás</p>
+            <h2>Ven a vernos <em>♡</em></h2>
+            <ul class="contact-list">
+              <li><span class="contact-icon">⌖</span><div><strong>Dirección</strong><p>C/ de las Flores, 12 · Madrid</p></div></li>
+              <li><span class="contact-icon">✆</span><div><strong>Teléfono</strong><p><a href="tel:+34000000000">600 000 000</a></p></div></li>
+              <li><span class="contact-icon">✉</span><div><strong>Email</strong><p><a href="mailto:hola@petalonails.es">hola@petalonails.es</a></p></div></li>
+              <li><span class="contact-icon">◷</span><div><strong>Horario</strong><p>Lun – Sáb · 9:00 – 19:00</p></div></li>
+            </ul>
+            <a class="social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">@petalonails <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="contact-map" role="img" aria-label="Mapa de ejemplo con la ubicación del estudio">
+            <div class="map-pattern"></div>
+            <div class="map-pin"><span>✦</span><strong>Pétalo Nail Studio</strong><small>C/ de las Flores, 12</small></div>
+            <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=Calle+de+las+Flores+12+Madrid" target="_blank" rel="noopener noreferrer">Cómo llegar →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="brand" href="#inicio">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="9" r="7"/><circle cx="31" cy="20" r="7"/><circle cx="20" cy="31" r="7"/><circle cx="9" cy="20" r="7"/><circle cx="20" cy="20" r="5" class="brand-core"/></svg>
+          <span class="brand-text"><strong>Pétalo</strong><small>NAIL STUDIO</small></span>
+        </a>
+        <p class="footer-tagline">Un pequeño rincón para cuidarte.</p>
+      </div>
+      <nav class="footer-links" aria-label="Enlaces del pie de página">
+        <a href="#servicios">Servicios</a><a href="#galeria">Galería</a><a href="#resenas">Reseñas</a><a href="#reserva">Reservar</a>
+      </nav>
+      <div class="footer-bottom"><p>© <span id="year"></span> Pétalo Nail Studio. Hecho con cariño.</p><p>Demo · Los datos de contacto son de ejemplo</p></div>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galería de fotos" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar galería">×</button>
+    <button class="lightbox-nav lightbox-nav--prev" id="lightboxPrev" aria-label="Foto anterior">‹</button>
+    <figure><img id="lightboxImg" src="" alt="" /><figcaption id="lightboxCaption"></figcaption></figure>
+    <button class="lightbox-nav lightbox-nav--next" id="lightboxNext" aria-label="Foto siguiente">›</button>
+  </div>
+
+  <!-- ============ CONFIRMACIÓN ============ -->
+  <div class="modal-backdrop" id="confirmModal" role="dialog" aria-modal="true" aria-labelledby="confirmTitle" hidden>
+    <div class="confirm-card">
+      <div class="confirm-icon" aria-hidden="true">✓</div>
+      <p class="eyebrow">Reserva confirmada</p>
+      <h2 id="confirmTitle">¡Te esperamos!</h2>
+      <p class="confirm-sub">Hemos registrado tu cita. Te enviaremos un recordatorio por email.</p>
+      <div class="confirm-details" id="confirmDetails"></div>
+      <p class="confirm-code">Código de reserva: <strong id="confirmCode"></strong></p>
+      <button class="btn btn-primary" id="confirmClose">Genial, cerrar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

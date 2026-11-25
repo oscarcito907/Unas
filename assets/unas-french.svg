@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8F9"/><stop offset="1" stop-color="#F1D8DE"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FDE8EC"/><stop offset="1" stop-color="#F0B9C7"/>
+    </linearGradient>
+    <filter id="s" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#A55D70" flood-opacity="0.16"/></filter>
+    <path id="n" d="M50 18 C24 18 8 34 8 66 L8 210 C8 246 30 270 70 270 C110 270 132 246 132 210 L132 66 C132 34 116 18 90 18 C76 10 64 10 50 18 Z"/>
+    <clipPath id="c"><use href="#n"/></clipPath>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="650" cy="180" r="190" fill="#F9E7EB"/><circle cx="120" cy="860" r="230" fill="#F8E2E7"/>
+  <g filter="url(#s)" transform="translate(120 180) rotate(-8 280 350)">
+    <path d="M-30 240 C30 190 100 230 140 290 C185 355 215 430 300 480 L345 690 C245 730 110 715 10 640 C-75 570 -85 350 -30 240 Z" fill="#F2D6CD"/>
+    <g transform="translate(10 60) scale(1.3)"><use href="#n" fill="url(#base)"/><g clip-path="url(#c)"><path d="M-20 200 C40 180 100 180 152 200 L152 290 L-20 290 Z" fill="#FFFDFD"/></g></g>
+    <g transform="translate(170 170) scale(1.2)"><use href="#n" fill="url(#base)"/><g clip-path="url(#c)"><path d="M-20 200 C40 180 100 180 152 200 L152 290 L-20 290 Z" fill="#FFFDFD"/></g></g>
+    <g transform="translate(320 280) scale(1.1)"><use href="#n" fill="url(#base)"/><g clip-path="url(#c)"><path d="M-20 200 C40 180 100 180 152 200 L152 290 L-20 290 Z" fill="#FFFDFD"/></g></g>
+  </g>
+  <rect x="40" y="40" width="720" height="920" rx="28" stroke="#D6A6B2" stroke-opacity="0.45" stroke-width="2"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" fill="none">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="800" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF8F8"/><stop offset="1" stop-color="#F1DFE2"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="520" x2="0" y2="800" gradientUnits="userSpaceOnUse"><stop stop-color="#EBD3D6"/><stop offset="1" stop-color="#DFC3C8"/></linearGradient>
+    <linearGradient id="chair" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F6DCE1"/><stop offset="1" stop-color="#DBA9B5"/></linearGradient>
+    <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#8E5763" flood-opacity="0.16"/></filter>
+  </defs>
+  <rect width="1000" height="800" fill="url(#wall)"/>
+  <rect y="520" width="1000" height="280" fill="url(#floor)"/>
+  <rect x="80" y="70" width="250" height="330" rx="125" fill="#FBEDEF"/>
+  <rect x="105" y="95" width="200" height="280" rx="100" fill="#FFF7F7"/>
+  <circle cx="205" cy="235" r="72" fill="#F2D3DA"/>
+  <path d="M205 163 a72 72 0 0 1 0 144 Z" fill="#E8BFC9"/>
+  <rect x="620" y="120" width="300" height="230" rx="16" fill="#FDF2F2" stroke="#DFB9C2" stroke-width="6"/>
+  <path d="M650 320 l70 -90 55 60 60 -80 105 110 Z" fill="#EBC9D0"/>
+  <circle cx="920" cy="165" r="28" fill="#F6DDE2"/>
+  <g filter="url(#s)">
+    <rect x="330" y="330" width="300" height="150" rx="24" fill="url(#chair)"/>
+    <rect x="355" y="450" width="250" height="180" rx="20" fill="#E7BEC8"/>
+    <rect x="310" y="470" width="70" height="160" rx="20" fill="#DBA9B5"/>
+    <rect x="580" y="470" width="70" height="160" rx="20" fill="#DBA9B5"/>
+    <rect x="365" y="390" width="230" height="14" rx="7" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="120" y="470" width="180" height="120" rx="14" fill="#FFFFFF"/>
+    <rect x="120" y="470" width="180" height="18" rx="9" fill="#E7C4CC"/>
+    <rect x="150" y="510" width="26" height="60" rx="13" fill="#D98FA1"/>
+    <rect x="190" y="510" width="26" height="60" rx="13" fill="#EFC2CC"/>
+    <rect x="230" y="510" width="26" height="60" rx="13" fill="#C77C93"/>
+  </g>
+  <g transform="translate(770 500)"><path d="M0 0 h14 v110 h-14 Z" fill="#C99B84"/><path d="M7 0 C-30 -30 -45 -70 -20 -95 C10 -120 45 -95 40 -60 C36 -32 18 -15 7 0 Z" fill="#A7BFA3"/><path d="M7 0 C35 -35 65 -55 78 -35 C90 -15 60 5 7 0 Z" fill="#95B191"/></g>
+  <circle cx="500" cy="120" r="26" fill="#F6DEE3"/><circle cx="570" cy="170" r="14" fill="#F1CCD5"/>
+</svg>

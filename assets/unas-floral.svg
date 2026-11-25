@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF9F8"/><stop offset="1" stop-color="#F0DBDF"/></linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FCEDEB"/><stop offset="1" stop-color="#EFC7C3"/></linearGradient>
+    <filter id="s" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#A16772" flood-opacity="0.16"/></filter>
+    <path id="n" d="M50 18 C24 18 8 34 8 66 L8 210 C8 246 30 270 70 270 C110 270 132 246 132 210 L132 66 C132 34 116 18 90 18 C76 10 64 10 50 18 Z"/>
+    <g id="flower"><circle cx="0" cy="-13" r="9" fill="#FFF4F5"/><circle cx="13" cy="0" r="9" fill="#FFF4F5"/><circle cx="0" cy="13" r="9" fill="#FFF4F5"/><circle cx="-13" cy="0" r="9" fill="#FFF4F5"/><circle cx="0" cy="0" r="6" fill="#D9A05C"/></g>
+    <g id="leaf"><path d="M0 0 C12 -14 26 -12 32 -2 C22 12 8 12 0 0 Z" fill="#9DAF92"/></g>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="660" cy="200" r="200" fill="#F8E8E8"/><circle cx="130" cy="880" r="240" fill="#F7E3E3"/>
+  <g filter="url(#s)" transform="translate(130 170) rotate(-6 280 350)">
+    <path d="M-35 245 C25 195 95 230 140 290 C185 355 215 430 305 480 L350 695 C250 735 110 718 5 642 C-80 572 -85 355 -35 245 Z" fill="#F0D6CC"/>
+    <g transform="translate(20 65) scale(1.3)"><use href="#n" fill="url(#base)"/><use href="#flower" x="42" y="150" transform="scale(0.9)"/><use href="#leaf" x="70" y="185"/></g>
+    <g transform="translate(175 175) scale(1.2)"><use href="#n" fill="url(#base)"/><use href="#flower" x="42" y="150"/><use href="#leaf" x="20" y="190"/></g>
+    <g transform="translate(325 285) scale(1.1)"><use href="#n" fill="url(#base)"/><use href="#flower" x="42" y="150"/><use href="#leaf" x="70" y="185"/></g>
+  </g>
+  <rect x="40" y="40" width="720" height="920" rx="28" stroke="#D6A6B2" stroke-opacity="0.45" stroke-width="2"/>
+</svg>
